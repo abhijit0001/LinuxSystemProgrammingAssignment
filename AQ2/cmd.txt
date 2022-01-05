@@ -1,0 +1,10 @@
+gcc -Wall -c lib.c
+ar rc lib.a lib.o
+
+//main run
+gcc  appMain.c -o appMain.o lib.a
+./appMain.o
+
+
+
+
